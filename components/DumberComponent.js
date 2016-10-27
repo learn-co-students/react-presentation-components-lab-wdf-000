@@ -3,7 +3,7 @@ const React = require('react')
 function DumberComponent(props) {
 
   return(
-    <div onClick={props.onClick}>I am just happy</div>
+    <div onClick={props.handleClick}>I am just happy</div>
   )
 }
 
