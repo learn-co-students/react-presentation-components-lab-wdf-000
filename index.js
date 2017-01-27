@@ -7,7 +7,7 @@ const DumberComponent = require('./components/DumberComponent');
 ReactDOM.render(
   <div>
     <DumbComponent />
-    <DumberComponent handleClick={undefined} />
+    <DumberComponent handleClick={(() => alert("done"))}/>
   </div>,
   document.getElementById('main')
 );
